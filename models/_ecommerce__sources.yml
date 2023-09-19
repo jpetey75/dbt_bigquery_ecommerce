@@ -1,0 +1,64 @@
+version: 2
+
+sources:
+  - name: ecommerce
+
+    tables:
+      
+      - name: inventory_items
+      
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
+          - name: created_at
+            tests:
+              - not_null
+      
+      - name: orders
+      
+        columns:
+          - name: order_id
+            tests:
+              - unique
+              - not_null
+          - name: created_at
+            tests:
+              - not_null
+      
+      - name: order_items
+      
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
+          - name: created_at
+            tests:
+              - not_null
+      
+      - name: products
+      
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
+          - name: name
+            tests:
+              - not_null
+          - name: sku
+            tests:
+              - not_null
+    
+      - name: users 
+      
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
+          - name: created_at
+            tests:
+              - not_null
