@@ -1,15 +1,3 @@
-Welcome to your new dbt project!
+## dbt BigQuery eCommerce example project 
 
-### Using the starter project
-
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](http://slack.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+This is an example project that uses an ecommerce demo data set in BigQuery. The purpose of this project is to show a simple dbt project that follows best practices. 
