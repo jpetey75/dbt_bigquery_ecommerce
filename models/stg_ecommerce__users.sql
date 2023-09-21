@@ -18,3 +18,4 @@ select
     {{ timestamp_to_central_date('created_at') }} as user_created_date
   
 from {{ source('ecommerce','users') }};
+
