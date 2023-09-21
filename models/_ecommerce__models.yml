@@ -1,5 +1,10 @@
+
 version: 2
 
 models:
 
+  - name: stg_ecommerce__orders
+  - name: stg_ecommerce__order_items
+  - name: stg_ecommerce__products
   - name: stg_ecommerce__users
+  
