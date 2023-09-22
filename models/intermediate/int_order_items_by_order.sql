@@ -1,8 +1,7 @@
 
 select 
     o.order_id,
-    {{ money('sum(oi.order_item_sale_price)') }} as order_total, 
-    count(oi.order_item_id) as num_order_items
+    {{ money('sum(oi.order_item_sale_price)') }} as order_total
 
 from {{ ref('stg_ecommerce__orders') }} as o 
 
