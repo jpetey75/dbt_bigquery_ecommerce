@@ -16,17 +16,15 @@ select
     o.order_created_month,
     o.order_shipped_at,
     o.order_shipped_month,
-    o.order_delivered_at,
-    o.order_delivered_month,
 
     --order item details 
     oi.order_total, 
-    oi.num_order_items,
+    oi.order_total_mens,
+    oi.order_total_womens,
 
     --user details 
     u.user_id,
     u.user_age, 
-    u.user_country, 
     u.user_email, 
     u.user_traffic_source
 
