@@ -14,4 +14,4 @@ select
     {{ money('cost') }} as product_cost, 
     {{ money ('retail_price') }} as product_retail_price
   
-from {{ source('ecommerce','products') }};
+from {{ source('ecommerce','products') }}

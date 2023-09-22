@@ -3,6 +3,10 @@ version: 2
 
 models:
 
+  - name: orders
+
+  - name: int_order_items_by_order
+
   - name: stg_ecommerce__orders
   - name: stg_ecommerce__order_items
   - name: stg_ecommerce__products
