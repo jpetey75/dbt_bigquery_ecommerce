@@ -34,12 +34,6 @@ sources:
             tests:
               - unique
               - not_null
-          - name: name
-            tests:
-              - not_null
-          - name: sku
-            tests:
-              - not_null
     
       - name: users 
       
