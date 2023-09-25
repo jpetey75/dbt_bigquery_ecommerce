@@ -11,8 +11,8 @@ select
     traffic_source as user_traffic_source,
 
     --date and time fields
-    {{ timestamp_to_central('created_at') }} as user_created_at,
-    {{ timestamp_to_central_month('created_at') }} as user_created_month
+    {{ ntz_to_reporting_tz('created_at') }} as user_created_at,
+    {{ ntz_to_reporting_tz_month('created_at') }} as user_created_month
   
 from {{ source('ecommerce','users') }}
 
