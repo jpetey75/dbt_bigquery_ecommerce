@@ -13,6 +13,16 @@ models:
       - name: order_status
         description: The order status (Shipped, Complete, Returned, Cancelled, Processing)
 
+      - name: order_created_at
+        description: Timestamp when the order was created
+      - name: order_created_month
+        description: The first day of the month when the order was created 
+
+      - name: order_shipped_at
+        description: Timestamp when the order was shipped
+      - name: order_shipped_month
+        description: The first day of the month when the order was shipped
+
   - name: int_order_items_by_order
   - name: stg_ecommerce__orders
   - name: stg_ecommerce__order_items
