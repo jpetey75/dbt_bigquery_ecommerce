@@ -8,7 +8,7 @@ models:
 
     columns:
       - name: order_id
-        description: This is a unique identifier for the order
+        description: "{{ doc('order_id') }}"
 
       - name: order_status
         description: The order status (Shipped, Complete, Returned, Cancelled, Processing)
