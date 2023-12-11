@@ -16,8 +16,6 @@ select
     o.order_created_month,
     o.order_shipped_at,
     o.order_shipped_month,
-    o.order_returned_at,
-    o.order_returned_month,
 
     --order item details 
     oi.order_total, 
